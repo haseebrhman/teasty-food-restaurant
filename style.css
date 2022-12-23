@@ -1,0 +1,38 @@
+.slide{
+    height: 650px;
+}
+
+h4{
+    color:greenyellow;
+}
+
+img.slide{
+    object-fit: cover;
+}
+
+.card{
+    align-items: center;
+    transition: 0.4s ;
+}
+
+.card:hover{
+    width: 320px !important;
+}
+
+.card .card-body h4{
+    transition: 0.4s;
+}
+
+.card:hover .card-body h4{
+    font-size: 3rem ;
+}
+
+.card-img-top{
+    transition: 0.4s  ;
+}
+
+.card-img-top:hover{
+    width: 320px;
+    border: 1px solid whitesmoke;
+    transform: rotate(20deg);
+}

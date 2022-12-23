@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teasty Food Resturant</title>
+    <link rel="icon" type="image/x-icon" href="images/header icon.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--nav bar-->
+
+    <header style="position:fixed;z-index: 1;width: 100%;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold" href="#">Tasty Food Resturant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#orderAfood">Orders arabian food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#orderIfood">Orders indian food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#orderCfood">Orders chainees food</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deals
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#location" tabindex="-1" aria-disabled="true">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <!--carousel-->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/arabic food.jpg" class=" slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Arabian Food</h2>
+              <p class="text-dark fs-5 ">Some speacial and teasty arabian food items.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/indian food.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Indian Food</h2>
+              <p>Some speacial and teasty arabian food items.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/italian food.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Italian Food</h2>
+              <p>Some speacial and teasty arabian food items.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Order Arabian food items-->
+
+      <div  style="background-color: rgb(16, 12, 12);">
+
+        <div class="container " id="orderAfood">
+            
+          <div class="row" style="background-color: rgb(32, 32, 17);">
+              <h3 class="text-center text-white my-4 " style="background-color: rgb(32, 32, 17);">Order Arabian Food Items</h3>
+           
+                <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                    <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                        <img src="images/agoda A.jpeg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Agoda Sweet</h5>
+                          <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                          <h4>Rs:99/-</h4>
+                          <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/salad A.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Salad</h5>
+                        <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                        <h4>Rs:149/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/capetocase A.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Capetocase</h5>
+                      <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                      <h4>Rs:219/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+              </div>
+            
+          </div>
+
+            <div class="row " style="background-color:whitesmoke">
+
+                <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                    <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                        <img src="images/souq fann journal A.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Arabian Souq</h5>
+                          <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                          <h4>Rs:239/-</h4>
+                          <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/Lahem-A.webp" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Lahem</h5>
+                        <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                        <h4>Rs:329/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/majboos A.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Arabian Majboos</h5>
+                      <p class="card-text">Arab cuisine (Arabic: المطبخ العربي) is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world.</p>
+                      <h4>Rs:599/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+    
+        </div>
+
+
+        <!--order indian food items-->
+
+        <div class="container " id="orderIfood">
+            
+          <div class="row" style="background-color: rgb(32, 32, 17);">
+            <h3 class="text-center text-white my-4 " style="background-color: rgb(32, 32, 17);">Order Indian Food Items</h3>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/biriyanni I.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Biriyani</h5>
+                        <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India. </p>
+                        <h4>Rs:159/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/neychoor I.webp" class="card-img-top" alt="..." style="border-radius: 12px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Ghee Rice</h5>
+                      <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India.</p>
+                      <h4>Rs:110/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+              <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                  <img src="images/Fried-rice I.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Fried Rice</h5>
+                    <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India.</p>
+                    <h4>Rs:140/-</h4>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row " style="background-color: whitesmoke">
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/dosa I.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Dosa</h5>
+                        <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India.</p>
+                        <h4>Rs:55/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/idli I.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Idli</h5>
+                      <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India.</p>
+                      <h4>Rs:30/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+              <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                  <img src="images/samusa I.jpeg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Samsa</h5>
+                    <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to India.</p>
+                    <h4>Rs:15/-</h4>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+  
+        </div>
+
+
+         <!--order chainees food items-->
+
+        <div class="container " id="orderCfood">
+            
+          <div class="row" style="background-color: rgb(32, 32, 17);">
+            <h3 class="text-center text-white my-4 " style="background-color: rgb(32, 32, 17);">Order chainees Food Items</h3>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/conde Nast C.webp" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Conde Nast</h5>
+                        <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                        <h4>Rs:169/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/Bao C.jpg" class="card-img-top" alt="..." style="border-radius: 12px;height:12rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Bao</h5>
+                      <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                      <h4>Rs:150/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+              <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                  <img src="images/soop C.webp" class="card-img-top" alt="..." style="border-radius: 12px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Soop</h5>
+                    <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                    <h4>Rs:99/-</h4>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row" style="background-color: whitesmoke">
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                  <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                      <img src="images/yang C.jpeg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Yang</h5>
+                        <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                        <h4>Rs:289/-</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+                <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                    <img src="images/momuus C.jpg" class="card-img-top" alt="..." style="border-radius: 12px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Momuus</h5>
+                      <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                      <h4>Rs:239/-</h4>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 ps-5 py-3" >
+              <div class="card bg-dark text-white" style="width: 18rem; border-radius: 12px; border:1px solid whitesmoke;">
+                  <img src="images/noodiles C.webp" class="card-img-top" alt="..." style="border-radius: 12px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Noodiles</h5>
+                    <p class="card-text">A typical Chinese's meal usually consists of rice, soup and three to four side dishes.</p>
+                    <h4>Rs:120/-</h4>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+  
+        </div>
+
+      </div>
+
+
+      <!--location-->
+
+    <div id="location">
+      <div class="container-fluid bg-warning">
+        <div class="row  ">
+          <h1 class=" text-center mt-4 text-white ps-5">Location</h1>
+          <div class="col-12 col-sm-12 col-md-6 p-5 bg-warning">
+            
+            <h3 class="text-white">Teasty Food Resturant</h3><br>
+            
+            <pre><h6 class="text-dark"><i class="bi bi-signpost"></i>  Panthavoorpalam,Alamkode(p.o),<br>    Malappuram(dist),Kerala,<br>    India,679585(pin)</h6></pre>
+            <pre><p><i class="bi bi-telephone"></i>  +91 8598775566, +91 9544066084</p></pre>
+            <pre><p><i class="bi bi-envelope"></i>  Email: teastyfoodresturant@gmail.com</p></pre>
+            <pre><i class="bi bi-browser-chrome">  </i><a href="">www.teastyfoodresturant.com</a></pre>
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 p-5 bg-dark text-white">
+            <pre><h3>Map <i class="bi bi-geo-alt-fill fs-5"></i></h3></pre>
+            <pre><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1173.8067163526675!2d76.02097800870071!3d10.750275550356998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7bf1f05e92847%3A0xf804dfb37d9d5af3!2sPuskas%20sports%20hub%20-%20Football%20Turf!5e0!3m2!1sen!2sin!4v1671811155082!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></pre>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+     <!--bootrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
